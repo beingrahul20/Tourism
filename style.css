@@ -1,0 +1,299 @@
+/* google fontss */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    color: cornflowerblue;
+    background-color: black;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.nav-link li {
+    margin: 0 30px;
+
+
+}
+
+header {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(INDIA\ TOUR.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: red;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px;
+    background: red;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.active {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* mobile Device */
+@media only screen and (max-width:850px) {
+    .navbar {
+        padding: 0;
+
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+
+    }
+
+    .nav-link {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .nav-link li {
+        margin: 30px auto;
+        background: purple;
+
+    }
+
+
+
+
+}
+
+section {
+
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+
+
+}
+
+img {
+    width: 80%;
+    margin: 30px;
+    size-adjust: center;
+}
+
+.good {
+    width: 80%;
+    height: 280px;
+}
+
+.event.row {
+    margin-top: 20px;
+
+}
+
+h4 {
+    font-size: 3vmin;
+    color: black;
+    margin: 20px auto;
+
+
+}
+
+p {
+    color: black;
+    padding: 0px 40px;
+}
+
+.events.ctn {
+    margin-top: 50px;
+
+}
+
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(ladakh.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content {
+    width: 60%;
+    padding: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+
+.explore-content p {
+    color: rgb(2, 2, 2);
+    font-size: 3vmin;
+    font-weight: bold;
+
+}
+
+.explore-content .ctn {
+    margin-top: 40px;
+
+}
+
+.explore-content .line {
+    margin-bottom: 50px;
+}
+
+.tours .image-gallary {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+.image-gallary img {
+    width: 250px;
+    margin: 10px;
+
+
+
+}
+
+.tours .row .col {
+    width: 50%;
+
+}
+
+.content-col {
+    width: 40%;
+}
+
+.colimage {
+    width: 60%;
+
+}
+
+.content-col h1 {
+    font-size: 6vmin;
+
+    color: navy;
+}
+
+.content-col .line {
+    margin-left: 1px;
+}
+
+.content-col p {
+    padding: 0;
+    margin: 3px auto;
+}
+
+.content-col .ctn {
+    margin-top: 30px;
+}
+
+.tt {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    height: 100px;
+}
+
+
+   
